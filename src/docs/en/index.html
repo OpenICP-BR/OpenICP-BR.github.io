@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.47.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>OpenICP-BR</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://openicp-br.github.io/en/index.xml" rel="alternate" type="application/rss+xml" title="OpenICP-BR" />
+
+  
+</head>
+
+  <body class="theme-base-0b ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/en/"><h1>OpenICP-BR</h1></a>
+      <p class="lead">
+      A simple app for brazilian digital signatures.
+      </p>
+    </div>
+    
+    <ul class="sidebar-nav">
+      <li><a href="/en/">Home</a> </li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+  
+  <li><a href="https://openicp-br.github.io/en/">🇬🇧 English</a></li>
+  
+  <li><a href="https://openicp-br.github.io/pt/">🇧🇷 Português</a></li>
+  
+</ul>
+
+
+    <p>G. Queiroz &copy; 2018.</p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  
+
+<h1 id="openicp-br">OpenICP-BR</h1>
+
+<p style="color: red">Note: This is still an alpha version. Do not use in production.</p>
+
+<h1 style="text-align: center">
+  <img style="display:inline-block" src="https://raw.githubusercontent.com/OpenICP-BR/wxApp/master/res/logo-512.png" alt="OpenICP-BR logo" 
+width="160">
+</h1>
+
+<h4 align="center">An opensource GUI tool for digital sigatures that are legally valid in Brazil (standard: <a href="http://www.iti.gov.br/icp-brasil" target="_blank">ICP-Brasil</a>).</h4>
+
+<p>OpenICP-BR is a cross-platform (Linux, macOS, Windows) desktop app for signing documents as well as verifying the sigunatures acording to the <a href="http://www.iti.gov.br/icp-brasil" target="_blank">ICP-Brasil</a> (Brazilian Publick Key Infrastructure).</p>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<p><img src="https://github.com/OpenICP-BR/wxApp/raw/develop/docs/screenshots/CertsPanel.png" alt="Certificates Panel" /></p>
+
+<p><img src="https://github.com/OpenICP-BR/wxApp/raw/develop/docs/screenshots/SignPanel.png" alt="Sign Painel" /></p>
+
+<h2 id="install">Install</h2>
+
+<p><a href="https://github.com/OpenICP-BR/wxApp/releases">See all released versions</a>.</p>
+
+<h3 id="os-x">OS X</h3>
+
+<ol>
+<li>Download the file <a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/OpenICP-BR-v0.2.2.dmg">OpenICP-BR-v0.2.2.dmg</a>.</li>
+<li>Open it and drag the app to the folder <code>Applications</code>.</li>
+<li>Done!</li>
+</ol>
+
+<h3 id="windows">Windows</h3>
+
+<ol>
+<li>Download the file
+<a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/Instalador-OpenICP-BR-v0.2.2-i686.exe">Instalador-OpenICP-BR-v0.2.2-i686.exe</a>.</li>
+<li>Run it.</li>
+<li>Follow the installer instructions.</li>
+<li>Done!</li>
+</ol>
+
+<p>OBS: You don&rsquo;t need administrator privileges to install the Windows version, because it does <em>not</em> install to <code>C:\Program Files (x86)</code>, but rather to <code>C:\Users\My User\AppData\Local</code>.</p>
+
+<h3 id="linux">Linux</h3>
+
+<h4 id="arch-linux">Arch Linux</h4>
+
+<ol>
+<li>Install via AUR: <code>pacaur -S openicp-br</code>.</li>
+</ol>
+
+<p>OR</p>
+
+<ol>
+<li>Download the file:
+<a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/openicp-br-0.2.2-1-x86_64.pkg.tar.xz">openicp-br-0.2.2-1-x86_64.pkg.tar.xz</a>.</li>
+<li>Install it: <code>sudo pacman -U openicp-br-0.2.2-1-x86_64.pkg.tar.xz</code>.</li>
+</ol>
+
+<h4 id="outras-distribuições-linux">Outras distribuições Linux</h4>
+
+<ol>
+<li>Download the file:
+<a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/OpenICP-BR-v0.2.2-x86_64.tar.gz">OpenICP-BR-v0.2.2-x86_64.tar.gz</a>.</li>
+<li>Make sure you have <a href="https://wxwidgets.org">wxWidgets</a> installed.</li>
+<li>Extract it on the root directory: <code>sudo tar xvf OpenICP-BR-v0.2.2-x86_64.tar.gz -C /</code>.</li>
+</ol>
+
+<h2 id="features">Features</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Add certificates</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Sign documents</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Verify signatures</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Check CRL (Certificate Revocation List)</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Support certificates in smart cards</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Auto updates</label></li>
+</ul>
+
+<h2 id="built-with">Built with</h2>
+
+<ul>
+<li><a href="https://wxwidgets.org">wxWidgets</a></li>
+<li><a href="https://www.openssl.org">OpenSSL</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p><a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL - Affero GNU Public License</a></p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

@@ -3,46 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://judsys.github.io/pt/</loc>
+    <loc>https://openicp-br.github.io/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judsys.github.io/en/"
+                href="https://openicp-br.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://judsys.github.io/pt/"
+                href="https://openicp-br.github.io/pt/"
                 />
   </url>
   
   <url>
-    <loc>https://judsys.github.io/pt/categories/</loc>
+    <loc>https://openicp-br.github.io/pt/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judsys.github.io/en/categories/"
+                href="https://openicp-br.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://judsys.github.io/pt/categories/"
+                href="https://openicp-br.github.io/pt/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://judsys.github.io/pt/tags/</loc>
+    <loc>https://openicp-br.github.io/pt/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://judsys.github.io/en/tags/"
+                href="https://openicp-br.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://judsys.github.io/pt/tags/"
+                href="https://openicp-br.github.io/pt/tags/"
                 />
   </url>
   
