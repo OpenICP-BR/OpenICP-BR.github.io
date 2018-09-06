@@ -1,0 +1,21 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ "" | relLangURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+      {{ .Language.Params.description }}
+      </p>
+    </div>
+    
+    <ul class="sidebar-nav">
+      <li><a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a> </li>
+      {{ range .Site.Menus.main -}}
+      <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{- end }}
+    </ul>
+
+    {{ partial "allLanguages.html" . }}
+
+    <p>{{ .Site.Params.copyright }} &copy; {{ now.Format "2006"}}.</p>
+  </div>
+</div>

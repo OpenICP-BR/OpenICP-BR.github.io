@@ -1,0 +1,31 @@
+baseURL = "https://openicp-br.github.io/"
+languageCode = "pt"
+title = "OpenICP-BR"
+theme = "hyde"
+
+DefaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = true
+
+[params]
+  themeColor = "theme-base-0b"
+  copyright = "G. Queiroz"
+
+[languages]
+  [languages.en]
+    title = "OpenICP-BR"
+    description = "A simple app for brazilian digital signatures."
+    languageName = "🇬🇧 English"
+    weight = 1
+#  [[languages.en.menu.main]]
+#    url    = "/en/about"
+#    name   = "About"
+#    weight = 0
+  [languages.pt]
+    title = "OpenICP-BR"
+    description = "Um app simples para assinaturas digitais brasileiras."
+    languageName = "🇧🇷 Português"
+    weight = 0
+#  [[languages.pt.menu.main]]
+#    url    = "/pt/about"
+#    name   = "Sobre"
+#    weight = 0
