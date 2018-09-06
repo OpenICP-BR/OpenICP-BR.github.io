@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.47.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>OpenICP-BR</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://openicp-br.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://openicp-br.github.io/pt/index.xml" rel="alternate" type="application/rss+xml" title="OpenICP-BR" />
+
+  
+</head>
+
+  <body class="theme-base-0b ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/pt/"><h1>OpenICP-BR</h1></a>
+      <p class="lead">
+      Um app simples para assinaturas digitais brasileiras.
+      </p>
+    </div>
+    
+    <ul class="sidebar-nav">
+      <li><a href="/pt/">Início</a> </li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+  
+  <li><a href="https://openicp-br.github.io/en/">🇬🇧 English</a></li>
+  
+  <li><a href="https://openicp-br.github.io/pt/">🇧🇷 Português</a></li>
+  
+</ul>
+
+
+    <p>G. Queiroz &copy; 2018.</p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  
+
+<h1 id="openicp-br">OpenICP-BR</h1>
+
+<p style="color: red">Nota: Essa ainda é uma versão alpha. Use somente para testes.</p>
+
+<h1 style="text-align: center">
+  <img style="display:inline-block" src="https://raw.githubusercontent.com/OpenICP-BR/wxApp/master/res/logo-512.png" alt="OpenICP-BR logo" 
+width="160">
+</h1>
+
+<h4 align="center">Uma ferramenta de código aberto para assinaturas digitais legalmente válidas (ICP-Brasil).</h4>
+
+<p>O OpenICP-BR é um aplicativo multiplataforma (Linux, macOS, Windows) para a área/mesa de trabalho para assinar e verificar assinaturas digitais de arcordo com o <a href="http://www.iti.gov.br/icp-brasil" target="_blank">ICP-Brasil</a> (Infraestrutura de Chaves Públicas Brasileira).</p>
+
+<h2 id="capturas-de-tela-screenshots">Capturas de Tela (Screenshots)</h2>
+
+<p><img src="https://github.com/OpenICP-BR/wxApp/raw/develop/docs/screenshots/CertsPanel.png" alt="Painel de Certificados" /></p>
+
+<p><img src="https://github.com/OpenICP-BR/wxApp/raw/develop/docs/screenshots/SignPanel.png" alt="Painel de Assinar" /></p>
+
+<h2 id="instalação">Instalação</h2>
+
+<p><a href="https://github.com/OpenICP-BR/wxApp/releases">Veja todas as versões publicadas</a>.</p>
+
+<h3 id="os-x">OS X</h3>
+
+<ol>
+<li>Baixe o arquivo <a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/OpenICP-BR-v0.2.2.dmg">OpenICP-BR-v0.2.2.dmg</a>.</li>
+<li>Abra-o e arraste o app para a pasta <code>Aplicativos</code>.</li>
+<li>Pronto!</li>
+</ol>
+
+<h3 id="windows">Windows</h3>
+
+<ol>
+<li>Baixe o arquivo
+<a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/Instalador-OpenICP-BR-v0.2.2-i686.exe">Instalador-OpenICP-BR-v0.2.2-i686.exe</a>.</li>
+<li>Execute-o.</li>
+<li>Siga as instruções do instalador.</li>
+<li>Pronto!</li>
+</ol>
+
+<p>OBS: Não é necessária permissão de administrador para instalar a versão para Windows, já que esta <em>não</em> instala em <code>C:\Arquivos de Programas (x86)</code>, mas sim em <code>C:\Usuários\Meu Usuário\AppData\Local</code>.</p>
+
+<h3 id="linux">Linux</h3>
+
+<h4 id="arch-linux">Arch Linux</h4>
+
+<ol>
+<li>Instale pelo AUR: <code>pacaur -S openicp-br</code>.</li>
+</ol>
+
+<p>OU</p>
+
+<ol>
+<li>Baixe o arquivo
+<a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/openicp-br-0.2.2-1-x86_64.pkg.tar.xz">openicp-br-0.2.2-1-x86_64.pkg.tar.xz</a>.</li>
+<li>Instale-o: <code>sudo pacman -U openicp-br-0.2.2-1-x86_64.pkg.tar.xz</code>.</li>
+</ol>
+
+<h4 id="outras-distribuições-linux">Outras distribuições Linux</h4>
+
+<ol>
+<li>Baixe o arquivo
+<a href="https://github.com/OpenICP-BR/wxApp/releases/download/v0.2.2/OpenICP-BR-v0.2.2-x86_64.tar.gz">OpenICP-BR-v0.2.2-x86_64.tar.gz</a>.</li>
+<li>Verifique se o <a href="https://wxwidgets.org">wxWidgets</a> está instalado.</li>
+<li>Extaria-o no diretório raíz: <code>sudo tar xvf OpenICP-BR-v0.2.2-x86_64.tar.gz -C /</code>.</li>
+</ol>
+
+<h2 id="funcionalidades">Funcionalidades</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Adicionar certificados</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Assinar documentos</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Verificar assinaturas</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Checar as CRLs (Listas de Certificados Revogados)</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Suportar certificados em smartcards</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Atualizações automáticas</label></li>
+</ul>
+
+<h2 id="feito-com">Feito com</h2>
+
+<ul>
+<li><a href="https://wxwidgets.org">wxWidgets</a></li>
+<li><a href="https://www.openssl.org">OpenSSL</a></li>
+</ul>
+
+<h2 id="licença">Licença</h2>
+
+<p><a href="http://licencas.softwarelivre.org/agpl-3.0.pt-br.html">AGPL - Licença Pública Geral Affero GNU</a></p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>
